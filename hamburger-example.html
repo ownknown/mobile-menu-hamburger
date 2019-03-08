@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link href="style1.css" rel="stylesheet" type="text/css">
+    <script>
+        function myFunction() {
+            if (document.getElementById('myLinks').style.display == 'block') {
+                document.getElementById('myLinks').style.display = 'none';
+            } else {
+                document.getElementById('myLinks').style.display = 'block';
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <nav>
+        <a href="javascript:void(0)" onclick="myFunction()"><img src="menu.png">
+        </a>
+        <div id="myLinks">
+            <a href="">Item 1</a>
+            <a href="">Item 2</a>
+            <a href="">Item 3</a>
+        </div>
+
+    </nav>
+
+</body>
+
+</html>

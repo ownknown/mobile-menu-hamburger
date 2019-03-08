@@ -1,0 +1,28 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+nav {
+    background-color: darkgrey;
+}
+
+a {
+    color: white;
+    display: block;
+    font-size: 17pt;
+    padding-bottom: 15px;
+}
+
+a:hover {
+    background-color: black;
+}
+
+#myLinks {
+    display: none;
+}
